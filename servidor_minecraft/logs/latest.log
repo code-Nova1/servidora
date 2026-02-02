@@ -1,0 +1,234 @@
+[02Feb2026 03:00:08.968] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.10, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[02Feb2026 03:00:08.973] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[02Feb2026 03:00:10.058] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[02Feb2026 03:00:10.146] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/servidora/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[02Feb2026 03:00:10.570] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidora/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar is missing mods.toml file
+[02Feb2026 03:00:10.574] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidora/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[02Feb2026 03:00:10.575] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidora/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[02Feb2026 03:00:10.576] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/servidora/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar is missing mods.toml file
+[02Feb2026 03:00:10.863] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[02Feb2026 03:00:12.718] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[02Feb2026 03:00:12.785] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[02Feb2026 03:00:12.874] [main/WARN] [mixin/]: Reference map '' for moderner_beta-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Feb2026 03:00:12.876] [main/WARN] [mixin/]: Reference map '' for moderner_beta-forgelike.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Feb2026 03:00:12.881] [main/WARN] [mixin/]: Reference map 'ottoTrident.refmap.json' for addurdisc.mixins.json could not be read. If this is a development environment you can ignore this message
+[02Feb2026 03:00:14.028] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[02Feb2026 03:00:20.059] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.10, for MC 1.20.1 with MCP 20230612.114412
+[02Feb2026 03:00:20.060] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.10 Initialized
+[02Feb2026 03:00:20.119] [modloading-worker-0/INFO] [Moderner Beta/]: [Moderner Beta] Initializing Moderner Beta...
+[02Feb2026 03:00:20.210] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[02Feb2026 03:00:20.210] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bc41b558e63e3acabdf17e4af2ce19d5
+[02Feb2026 03:00:20.211] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/820512a6d7f93443a0f01cb3ca37c198
+[02Feb2026 03:00:20.213] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/21098d7225753c7582cbb14b516549ea
+[02Feb2026 03:00:20.214] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/11793fac87ff33e0bab6a9ba4f058bcd
+[02Feb2026 03:00:20.217] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/8674a600f2ce30db90592165bf992749
+[02Feb2026 03:00:20.219] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/969ef2fbc52c3b61b27dff82e153d246
+[02Feb2026 03:00:20.221] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3d890de0705738479f5f0dfe78a8d6c5
+[02Feb2026 03:00:20.223] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/ab5da9787d3a3059acdd1d3d9c9de62c
+[02Feb2026 03:00:20.226] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/2a6fec000243327889169fa42ce4fbc5
+[02Feb2026 03:00:20.227] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/bdab90c35a883ff89330fc0a96e5ddd0
+[02Feb2026 03:00:20.228] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/3b822ae7a3c3385dad973fd078df36e2
+[02Feb2026 03:00:20.230] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/306645865c573c6eb8a072650dff738c
+[02Feb2026 03:00:20.230] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/fc2384c1d2c5326d9f22ae3a721471fb
+[02Feb2026 03:00:20.231] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/411c07a15d05394294d2afaccd64b8d6
+[02Feb2026 03:00:20.235] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c61c7ccaff23a56ab28d5bcef033c02
+[02Feb2026 03:00:20.236] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/1c6e0806beb13bd2885dba3a15b923e9
+[02Feb2026 03:00:20.237] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9070784315da3402b442e6b9b44ab7a7
+[02Feb2026 03:00:20.239] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/e3a42c34d1e136a3aabe0ef8ea51d4f4
+[02Feb2026 03:00:20.240] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b524398881293423826ab26801d34d51
+[02Feb2026 03:00:20.240] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9f216412f3453b6b8a0cc24053d5aa74
+[02Feb2026 03:00:20.241] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/a325be47afcb37b0a9fcb115dbef3fa2
+[02Feb2026 03:00:20.242] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/619d7cf1ba8a304e8ac5d4a79815d163
+[02Feb2026 03:00:20.243] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/7b3063ebfe393e4d96139c4956d6e33b
+[02Feb2026 03:00:20.244] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/0271a89daae1311791bd6cbf12bb50f9
+[02Feb2026 03:00:20.247] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7ef395438493fa9a795101309af431c
+[02Feb2026 03:00:20.248] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/767d86d5104c37a09db037c33aa48936
+[02Feb2026 03:00:20.253] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/34ed7a68804a3ae69029f532dae3b879
+[02Feb2026 03:00:20.253] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/5d9caea230a13edd8c4dd42e03846a67
+[02Feb2026 03:00:20.254] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/29cd8aa911f53c0bb34be0b3190642b0
+[02Feb2026 03:00:20.255] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/9fe28abb236a314ebace50a1d4f22013
+[02Feb2026 03:00:20.256] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/b7da3d02a3d6328baaa1dfb2f1f574e9
+[02Feb2026 03:00:20.257] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id nostalgic_tweaks:network/f6e0a90a5f643a179af3fe90da76b473
+[02Feb2026 03:00:20.477] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Backup] Created new startup config backup at /workspaces/servidora/servidor_minecraft/config/nostalgic_tweaks/backup/nostalgic_tweaks-dedicated_server-startup_backup.json
+[02Feb2026 03:00:20.553] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully loaded ServerConfig
+[02Feb2026 03:00:20.558] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Handler] Successfully saved ServerConfig
+[02Feb2026 03:00:20.558] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Factory] Successfully built ServerConfig
+[02Feb2026 03:00:20.563] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] [Config Cache] Loaded 111 server tweaks
+[02Feb2026 03:00:20.564] [modloading-worker-0/INFO] [mod.adrenix.nostalgic.util.common.log.ModLogger/]: [Nostalgic Tweaks] [INFO] Loading mod in [Forge] dedicated_server environment
+[02Feb2026 03:00:20.654] [main/WARN] [nya.tuyw.addurdisc.AddurDisc/]: BULMINATION!.ogg contains illegal characters. Ignoring.
+[02Feb2026 03:00:22.106] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[02Feb2026 03:00:22.431] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:186) ~[fmlcore-1.20.1-47.4.10.jar%23116!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:117) ~[fmlcore-1.20.1-47.4.10.jar%23116!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[02Feb2026 03:00:22.434] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[02Feb2026 03:00:22.690] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 47.4.10 Target: null
+[02Feb2026 03:00:23.332] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[02Feb2026 03:00:24.014] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidora/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/assets/.mcassetsroot' uses unexpected schema
+[02Feb2026 03:00:24.015] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/servidora/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23115!/data/.mcassetsroot' uses unexpected schema
+[02Feb2026 03:00:24.076] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/world', ignoring
+[02Feb2026 03:00:24.076] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/eula.txt', ignoring
+[02Feb2026 03:00:24.076] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/mods', ignoring
+[02Feb2026 03:00:24.076] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/banned-players.json', ignoring
+[02Feb2026 03:00:24.077] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/libraries', ignoring
+[02Feb2026 03:00:24.077] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/crash-reports', ignoring
+[02Feb2026 03:00:24.078] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/logs', ignoring
+[02Feb2026 03:00:24.078] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/run.bat', ignoring
+[02Feb2026 03:00:24.078] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/forge.jar', ignoring
+[02Feb2026 03:00:24.078] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/run.sh', ignoring
+[02Feb2026 03:00:24.078] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/server.properties', ignoring
+[02Feb2026 03:00:24.079] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/playit.tunnels', ignoring
+[02Feb2026 03:00:24.079] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/usercache.json', ignoring
+[02Feb2026 03:00:24.079] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/config', ignoring
+[02Feb2026 03:00:24.079] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/playit.status', ignoring
+[02Feb2026 03:00:24.079] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/banned-ips.json', ignoring
+[02Feb2026 03:00:24.079] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/whitelist.json', ignoring
+[02Feb2026 03:00:24.080] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/ops.json', ignoring
+[02Feb2026 03:00:24.080] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/forge.jar.log', ignoring
+[02Feb2026 03:00:24.080] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/usernamecache.json', ignoring
+[02Feb2026 03:00:24.080] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/defaultconfigs', ignoring
+[02Feb2026 03:00:24.080] [main/INFO] [nya.tuyw.addurdisc.PackFinder.myRepositorySource/]: Found non-pack entry '/workspaces/servidora/servidor_minecraft/user_jvm_args.txt', ignoring
+[02Feb2026 03:00:26.177] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[02Feb2026 03:00:26.300] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[02Feb2026 03:00:26.834] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[02Feb2026 03:00:26.835] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[02Feb2026 03:00:26.835] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[02Feb2026 03:00:26.835] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02Feb2026 03:00:26.978] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[02Feb2026 03:00:27.007] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[02Feb2026 03:00:27.092] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02Feb2026 03:00:27.093] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[02Feb2026 03:00:27.093] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02Feb2026 03:00:27.093] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[02Feb2026 03:00:27.155] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[02Feb2026 03:00:30.141] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[02Feb2026 03:00:32.424] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2026 03:00:32.431] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2026 03:00:32.439] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2026 03:00:32.444] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2026 03:00:32.455] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2026 03:00:32.644] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2026 03:00:33.447] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2026 03:00:33.643] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2026 03:00:34.145] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2026 03:00:34.643] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[02Feb2026 03:00:35.143] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[02Feb2026 03:00:35.643] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[02Feb2026 03:00:35.949] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5807 ms
+[02Feb2026 03:00:35.950] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.843s)! For help, type "help"
+[02Feb2026 03:00:35.955] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JMX monitoring enabled
+[02Feb2026 03:00:35.996] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[02Feb2026 03:01:14.451] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Niquito[/127.164.53.114:49605] logged in with entity id 35 at (4.351752620582652, 73.0, -68.54342759649074)
+[02Feb2026 03:01:14.540] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Niquito joined the game
+[02Feb2026 03:01:54.174] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: G.O.D[/127.62.220.153:57253] logged in with entity id 45 at (-404.5996282929797, 107.0, 92.74355095544271)
+[02Feb2026 03:01:54.183] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: G.O.D joined the game
+[02Feb2026 03:02:09.216] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: aiden_h[/127.180.243.166:46647] logged in with entity id 188 at (-376.13243658144023, 73.94602408668781, 126.12060694520115)
+[02Feb2026 03:02:09.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: aiden_h joined the game
+[02Feb2026 03:03:01.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Niquito: Teleported Niquito to 2.500000, 73.670000, 2.500000]
+[02Feb2026 03:03:05.963] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Niquito: Teleported Niquito to G.O.D]
+[02Feb2026 03:03:50.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Niquito was slain by ???
+[02Feb2026 03:03:50.259] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Niquito lost connection: Disconnected
+[02Feb2026 03:03:50.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Niquito left the game
+[02Feb2026 03:03:50.299] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: Encountered an unexpected exception
+net.minecraft.ReportedException: Ticking entity
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:897) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.Entity.m_20185_()" because the return value of "java.util.Optional.orElse(Object)" is null
+	at net.mcreator.thewonderland.procedures.TheEntityKillProcedure.execute(TheEntityKillProcedure.java:35) ~[the_wonderland-2.0.0-1.20.1.jar%23113!/:?]
+	at net.mcreator.thewonderland.entity.TheEntityChasingEntity.m_5993_(TheEntityChasingEntity.java:195) ~[the_wonderland-2.0.0-1.20.1.jar%23113!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_6667_(ServerPlayer.java:613) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_6469_(LivingEntity.java:1182) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.player.Player.m_6469_(Player.java:840) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.level.ServerPlayer.m_6469_(ServerPlayer.java:695) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.Mob.m_7327_(Mob.java:1410) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.m_6739_(MeleeAttackGoal.java:147) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.ai.goal.MeleeAttackGoal.m_8037_(MeleeAttackGoal.java:138) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.ai.goal.WrappedGoal.m_8037_(WrappedGoal.java:65) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.m_186081_(GoalSelector.java:120) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.ai.goal.GoalSelector.m_25373_(GoalSelector.java:111) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:760) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.mcreator.thewonderland.entity.TheEntityChasingEntity.m_8107_(TheEntityChasingEntity.java:212) ~[the_wonderland-2.0.0-1.20.1.jar%23113!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:694) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23115!/:?]
+	... 5 more
+[02Feb2026 03:03:50.323] [Server thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID c8e1ad23-6ae1-49c1-a2b2-25b10a61b157
+[02Feb2026 03:03:50.323] [Server thread/ERROR] [net.minecraft.server.MinecraftServer/]: This crash report has been saved to: /workspaces/servidora/servidor_minecraft/./crash-reports/crash-2026-02-02_03.03.50-server.txt
+[02Feb2026 03:03:50.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Feb2026 03:03:50.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Feb2026 03:03:50.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Feb2026 03:03:50.600] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02Feb2026 03:03:51.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:jungle_warehouse
+[02Feb2026 03:03:51.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:inconsistency
+[02Feb2026 03:03:51.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:what_once_was
+[02Feb2026 03:03:51.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:wonderland
+[02Feb2026 03:03:51.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:brickways
+[02Feb2026 03:03:51.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:depths
+[02Feb2026 03:03:51.144] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:bedrock_hallways
+[02Feb2026 03:03:51.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:endless_library
+[02Feb2026 03:03:51.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:winter_wonderland
+[02Feb2026 03:03:51.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:maze
+[02Feb2026 03:03:51.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:tunnels
+[02Feb2026 03:03:51.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:answer_dimension
+[02Feb2026 03:03:51.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:endless_house
+[02Feb2026 03:03:51.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:dreamworld
+[02Feb2026 03:03:51.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02Feb2026 03:03:51.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:remembrance
+[02Feb2026 03:03:51.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02Feb2026 03:03:51.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:endless_field
+[02Feb2026 03:03:51.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:sequence
+[02Feb2026 03:03:51.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:corners
+[02Feb2026 03:03:51.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:the_vault
+[02Feb2026 03:03:51.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:torture
+[02Feb2026 03:03:51.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:abyss
+[02Feb2026 03:03:51.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:catacombs
+[02Feb2026 03:03:51.160] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/the_wonderland:the_slip
+[02Feb2026 03:03:51.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02Feb2026 03:03:51.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (jungle_warehouse): All chunks are saved
+[02Feb2026 03:03:51.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (inconsistency): All chunks are saved
+[02Feb2026 03:03:51.186] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (what_once_was): All chunks are saved
+[02Feb2026 03:03:51.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (wonderland): All chunks are saved
+[02Feb2026 03:03:51.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (brickways): All chunks are saved
+[02Feb2026 03:03:51.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (depths): All chunks are saved
+[02Feb2026 03:03:51.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (bedrock_hallways): All chunks are saved
+[02Feb2026 03:03:51.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (endless_library): All chunks are saved
+[02Feb2026 03:03:51.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (winter_wonderland): All chunks are saved
+[02Feb2026 03:03:51.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (maze): All chunks are saved
+[02Feb2026 03:03:51.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (tunnels): All chunks are saved
+[02Feb2026 03:03:51.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (answer_dimension): All chunks are saved
+[02Feb2026 03:03:51.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (endless_house): All chunks are saved
+[02Feb2026 03:03:51.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (dreamworld): All chunks are saved
+[02Feb2026 03:03:51.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Feb2026 03:03:51.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (remembrance): All chunks are saved
+[02Feb2026 03:03:51.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Feb2026 03:03:51.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (endless_field): All chunks are saved
+[02Feb2026 03:03:51.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (sequence): All chunks are saved
+[02Feb2026 03:03:51.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (corners): All chunks are saved
+[02Feb2026 03:03:51.189] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_vault): All chunks are saved
+[02Feb2026 03:03:51.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (torture): All chunks are saved
+[02Feb2026 03:03:51.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abyss): All chunks are saved
+[02Feb2026 03:03:51.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (catacombs): All chunks are saved
+[02Feb2026 03:03:51.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_slip): All chunks are saved
+[02Feb2026 03:03:51.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
